@@ -1,0 +1,198 @@
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  padding: 0;
+  font-family: roboto;
+}
+
+.profile-left {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-right: 1px solid #e0e0e0;
+}
+
+.profile-image {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 16px;
+}
+
+.profile-left h2 {
+  font-size: 24px;
+  margin: 8px 0 4px;
+  text-align: center;
+}
+
+.specialization {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.status {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #006600;
+}
+
+.status-heading {
+  color: black;
+  font-weight: bold;
+}
+
+.status.availabletoday {
+  color: #28a745;
+}
+
+.status.fullybooked {
+  color: #dc3545;
+}
+
+.status.onleave {
+  color: #ff9900;
+}
+
+.description {
+  font-size: 15px;
+  color: #444;
+  text-align: center;
+}
+
+.star-icon {
+  color: #f7b500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.profile-right {
+  flex: 2;
+  padding: 32px 32px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.profile-right h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+ul {
+  margin: 0 0 16px;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.book-btn {
+  padding: 12px 20px;
+  background-color: #0066ff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.book-btn:hover {
+  background-color: #004bbd;
+}
+
+.doctor-meta {
+  margin-bottom: 0;
+}
+
+.rating {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  background-color: #f0f0f0;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.schedule-section,
+.weekly-schedule {
+  margin-bottom: 0;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+  }
+
+  .profile-left,
+  .profile-right {
+    max-width: 100%;
+    padding: 24px;
+    border-right: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .profile-left {
+    align-items: center;
+  }
+
+  .profile-right {
+    align-items: center;
+    text-align: center;
+  }
+
+  .book-btn {
+    align-self: center;
+    width: 100%;
+  }
+
+  ul {
+    list-style-position: inside;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    list-style-position: outside;
+    padding-left: 24px;
+    margin-left: 0;
+  }
+
+  li {
+    text-indent: -16px;
+    padding-left: 16px;
+  }
+}

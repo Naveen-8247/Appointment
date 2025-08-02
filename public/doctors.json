@@ -1,0 +1,165 @@
+[
+  {
+    "id": "doc1",
+    "name": "Dr. Priya Sharma",
+    "specialization": "Cardiologist",
+    "image": "https://t3.ftcdn.net/jpg/06/98/05/62/240_F_698056222_llz8ELIw40LcRm1RXPUsgsYbtUpwh8sx.jpg",
+    "status": "Available Today",
+    "description": "An experienced cardiologist with 10+ years of service.",
+    "schedule": ["10:00 AM - 1:00 PM", "4:00 PM - 6:00 PM"],
+    "weeklySchedule": [
+      "Monday: 10:00 AM - 1:00 PM",
+      "Wednesday: 4:00 PM - 6:00 PM",
+      "Friday: 10:00 AM - 12:00 PM"
+    ],
+    "ratings": 4.8,
+    "reviewsCount": 154,
+    "tags": ["Heart Health", "ECG", "Angioplasty"]
+  },
+  {
+    "id": "doc2",
+    "name": "Dr. Amit Patel",
+    "specialization": "Dermatologist",
+    "image": "https://res.cloudinary.com/dcy78sibl/image/upload/v1753984551/AdobeStock_258306260_Preview_xourn7.jpg",
+    "status": "Fully Booked",
+    "description": "Expert in skin treatments and allergies.",
+    "schedule": ["9:00 AM - 12:00 PM"],
+    "weeklySchedule": [
+      "Tuesday: 9:00 AM - 12:00 PM",
+      "Thursday: 10:00 AM - 1:00 PM",
+      "Friday: 1:00 PM - 3:00 PM"
+    ],
+    "ratings": 4.5,
+    "reviewsCount": 98,
+    "tags": ["Acne", "Eczema", "Skin Allergy"]
+  },
+  {
+    "id": "doc3",
+    "name": "Dr. Kavita Rao",
+    "specialization": "Pediatrician",
+    "image": "https://as2.ftcdn.net/v2/jpg/06/69/98/97/1000_F_669989767_JfSw12ecXv9nTHSWJ1Hj4ixTyUdPorcV.jpg",
+    "status": "On Leave",
+    "description": "Specializes in child healthcare and vaccinations.",
+    "schedule": [],
+    "weeklySchedule": [],
+    "ratings": 4.7,
+    "reviewsCount": 120,
+    "tags": ["Child Care", "Vaccination", "Nutrition"]
+  },
+  {
+    "id": "doc4",
+    "name": "Dr. Rajesh Iyer",
+    "specialization": "Orthopedic Surgeon",
+    "image": "https://res.cloudinary.com/dcy78sibl/image/upload/v1753984439/AdobeStock_474796454_Preview_r9jlfe.jpg",
+    "status": "Available Today",
+    "description": "Expert in joint replacement and sports injuries.",
+    "schedule": ["11:00 AM - 2:00 PM", "5:00 PM - 7:00 PM"],
+    "weeklySchedule": [
+      "Monday: 11:00 AM - 2:00 PM",
+      "Thursday: 5:00 PM - 7:00 PM",
+      "Saturday: 11:00 AM - 1:00 PM"
+    ],
+    "ratings": 4.6,
+    "reviewsCount": 143,
+    "tags": ["Joint Pain", "Arthritis", "Sports Injury"]
+  },
+  {
+    "id": "doc5",
+    "name": "Dr. Sneha Verma",
+    "specialization": "Gynecologist",
+    "image": "https://t4.ftcdn.net/jpg/06/39/45/45/240_F_639454588_dg0jlrOtHuRFzMdAbJZTdw0XrysWa73y.jpg",
+    "status": "Available Today",
+    "description": "Provides care for women’s health and prenatal services.",
+    "schedule": ["9:00 AM - 11:30 AM", "3:00 PM - 5:30 PM"],
+    "weeklySchedule": [
+      "Monday: 9:00 AM - 11:30 AM",
+      "Wednesday: 3:00 PM - 5:30 PM",
+      "Friday: 10:00 AM - 12:00 PM"
+    ],
+    "ratings": 4.9,
+    "reviewsCount": 200,
+    "tags": ["Pregnancy", "Menstrual Health", "Infertility"]
+  },
+  {
+    "id": "doc6",
+    "name": "Dr. Mohan Gupta",
+    "specialization": "Neurologist",
+    "image": "https://res.cloudinary.com/dcy78sibl/image/upload/v1753984723/AdobeStock_190013243_Preview_hbyl6m.jpg",
+    "status": "Fully Booked",
+    "description": "Treats disorders of the brain and nervous system.",
+    "schedule": ["10:30 AM - 1:30 PM"],
+    "weeklySchedule": [
+      "Tuesday: 10:30 AM - 1:30 PM",
+      "Thursday: 11:00 AM - 1:00 PM",
+      "Friday: 11:00 AM - 1:00 PM"
+    ],
+    "ratings": 4.4,
+    "reviewsCount": 110,
+    "tags": ["Migraine", "Stroke", "Epilepsy"]
+  },
+  {
+    "id": "doc7",
+    "name": "Dr. Anjali Mehta",
+    "specialization": "Psychiatrist",
+    "image": "https://as2.ftcdn.net/v2/jpg/05/85/85/11/1000_F_585851103_UVqQhBixl8cYNIiyxPDZoUN4kOUuE9jg.jpg",
+    "status": "Available Today",
+    "description": "Specialist in mental health and counseling.",
+    "schedule": ["2:00 PM - 6:00 PM"],
+    "weeklySchedule": [
+      "Monday: 2:00 PM - 4:00 PM",
+      "Wednesday: 3:00 PM - 6:00 PM",
+      "Friday: 1:00 PM - 3:00 PM"
+    ],
+    "ratings": 4.9,
+    "reviewsCount": 189,
+    "tags": ["Depression", "Anxiety", "Therapy"]
+  },
+  {
+    "id": "doc8",
+    "name": "Dr. Vikram Sinha",
+    "specialization": "ENT Specialist",
+    "image": "https://as1.ftcdn.net/v2/jpg/03/52/59/44/1000_F_352594458_LfmcHeDYmBV3hfHvkJUqjdPOmgmURxqc.jpg",
+    "status": "On Leave",
+    "description": "Handles ear, nose, and throat disorders.",
+    "schedule": [],
+    "weeklySchedule": [],
+    "ratings": 4.3,
+    "reviewsCount": 77,
+    "tags": ["Hearing Loss", "Tonsils", "Sinus"]
+  },
+  {
+    "id": "doc9",
+    "name": "Dr. Ritu Malhotra",
+    "specialization": "Ophthalmologist",
+    "image": "https://as2.ftcdn.net/v2/jpg/10/20/54/41/1000_F_1020544111_Fpwlgr818TJickIeQNB1J6Vhl6xduXQ6.jpg",
+    "status": "Available Today",
+    "description": "Eye care specialist with laser surgery experience.",
+    "schedule": ["10:00 AM - 12:30 PM", "3:00 PM - 6:00 PM"],
+    "weeklySchedule": [
+      "Tuesday: 10:00 AM - 12:30 PM",
+      "Thursday: 3:00 PM - 6:00 PM",
+      "Friday: 1:00 PM - 3:00 PM"
+
+    ],
+    "ratings": 4.7,
+    "reviewsCount": 142,
+    "tags": ["Cataract", "Glaucoma", "Laser Surgery"]
+  },
+  {
+    "id": "doc10",
+    "name": "Dr. Nikhil Bansal",
+    "specialization": "General Physician",
+    "image": "https://as1.ftcdn.net/v2/jpg/04/43/56/78/1000_F_443567855_hgKyg71In7YD1aiem7YuOfprha9RUIbI.jpg",
+    "status": "Fully Booked",
+    "description": "Cares for general illnesses and primary check-ups.",
+    "schedule": ["8:00 AM - 11:00 AM", "1:00 PM - 3:00 PM"],
+    "weeklySchedule": [
+      "Monday: 8:00 AM - 11:00 AM",
+      "Wednesday: 1:00 PM - 3:00 PM",
+      "Friday: 9:00 AM - 12:00 PM"
+    ],
+    "ratings": 4.6,
+    "reviewsCount": 101,
+    "tags": ["Cold & Flu", "Fever", "General Care"]
+  }
+]
