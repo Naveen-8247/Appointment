@@ -145,11 +145,14 @@ ul {
 }
 
 .loader-container {
+  margin-top:50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 200px;
+  filter: blur(1px);
 }
+
 
 @media screen and (max-width: 768px) {
   .profile-container {

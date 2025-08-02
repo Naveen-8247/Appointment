@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { FaStar } from 'react-icons/fa'
-import { TailSpin } from 'react-loader-spinner'
+import { ClipLoader } from 'react-spinners'
 import Header from '../Header'
 import './index.css'
 
@@ -30,7 +30,7 @@ const DoctorProfile = () => {
   if (doctorDetails === null) {
     return (
       <div className="loader-container">
-        <TailSpin height={60} width={60} color="#007bff" ariaLabel="loading" />
+        <ClipLoader color="#007bff" size={60} />
       </div>
     )
   }
