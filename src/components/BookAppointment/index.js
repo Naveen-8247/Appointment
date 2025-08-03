@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-
 import Header from '../Header'
 import './index.css'
 
@@ -23,14 +22,11 @@ const BookAppointment = () => {
 
   const handleFormSubmit = event => {
     event.preventDefault()
-
     const { name, email, datetime } = formData
-
     if (name === '' || email === '' || datetime === '') {
       alert('All fields are required.')
       return
     }
-
     navigate('/confirmation')
   }
 
@@ -56,13 +52,18 @@ const BookAppointment = () => {
             onChange={handleInputChange}
             required
           />
-          <input
-            type="datetime-local"
-            name="datetime"
-            value={formData.datetime}
-            onChange={handleInputChange}
-            required
-          />
+          <div className="datetime-container">
+            <input
+              type="datetime-local"
+              name="datetime"
+              id="datetime"
+              value={formData.datetime}
+              onChange={handleInputChange}
+              required
+              className="datetime-input"
+            />
+          </div>
+
           <button type="submit">Confirm Booking</button>
         </form>
       </div>
