@@ -1,27 +1,28 @@
 Doctor Appointment Booking App
 - This is a Doctor Appointment Booking Web Application built using React.js. It allows users to search for doctors, view profiles, and book appointments. The backend is simulated using a doctors.json file placed in the public directory. 
 
-Project Structure:
+## Project Structure
+
 frontend/
 ├── public/
-│   ├── doctors.json
-│   ├── index.html
-│   └── manifest.json
+│ ├── doctors.json
+│ ├── index.html
+│ └── manifest.json
 ├── src/
-│   ├── components/
-│   │   ├── BookAppointment/
-│   │   ├── Confirmation/
-│   │   ├── DoctorCard/
-│   │   ├── DoctorProfile/
-│   │   ├── DoctorSearch/
-│   │   ├── Header/
-│   │   └── Home/
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-│   ├── index.css
-│   ├── reportWebVitals.js
-│   └── setupTests.js
+│ ├── components/
+│ │ ├── BookAppointment/
+│ │ ├── Confirmation/
+│ │ ├── DoctorCard/
+│ │ ├── DoctorProfile/
+│ │ ├── DoctorSearch/
+│ │ ├── Header/
+│ │ └── Home/
+│ ├── App.js
+│ ├── App.css
+│ ├── index.js
+│ ├── index.css
+│ ├── reportWebVitals.js
+│ └── setupTests.js
 ├── package.json
 ├── .gitignore
 └── README.md
