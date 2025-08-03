@@ -5,24 +5,24 @@ Doctor Appointment Booking App
 
 frontend/
 ├── public/
-│ ├── doctors.json
-│ ├── index.html
-│ └── manifest.json
+│   ├── doctors.json
+│   ├── index.html
+│   └── manifest.json
 ├── src/
-│ ├── components/
-│ │ ├── BookAppointment/
-│ │ ├── Confirmation/
-│ │ ├── DoctorCard/
-│ │ ├── DoctorProfile/
-│ │ ├── DoctorSearch/
-│ │ ├── Header/
-│ │ └── Home/
-│ ├── App.js
-│ ├── App.css
-│ ├── index.js
-│ ├── index.css
-│ ├── reportWebVitals.js
-│ └── setupTests.js
+│   ├── components/
+│   │   ├── BookAppointment/
+│   │   ├── Confirmation/
+│   │   ├── DoctorCard/
+│   │   ├── DoctorProfile/
+│   │   ├── DoctorSearch/
+│   │   ├── Header/
+│   │   └── Home/
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   ├── index.css
+│   ├── reportWebVitals.js
+│   └── setupTests.js
 ├── package.json
 ├── .gitignore
 └── README.md
