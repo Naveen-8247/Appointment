@@ -62,7 +62,7 @@ cd frontend
 git clone https://github.com/Naveen-8247/DoctorAppointment.git
 
 
-Install dependencies
+Install dependencies 
 - npm install 
 This will install:
 - react
